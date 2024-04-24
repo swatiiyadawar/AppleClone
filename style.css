@@ -4,6 +4,7 @@
     
 }
 #navbar{
+   position: fixed;
     width:100%;
     height:44px;
     background-color: #161617CC;
@@ -55,136 +56,8 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* :root{
-  --anim-time: .3s;
-  --anim-select-border: .3s;
-  --anim-option-height: .3s;
-  --anim-option-height-delay: .15s;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-ul{
-  list-style: none;
-}
-.container{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-:root{
-  --anim-time: .3s;
-  --anim-select-border: .3s;
-  --anim-option-height: .3s;
-  --anim-option-height-delay: .15s;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-ul{
-  list-style: none;
-}
-.container{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.dropdown{
-  font-family: Arial, sans-serif;
-}
-.selected{
-  display: flex;
-  min-width: 150px;
-  height: 70px;
-  background: #4a4a4a;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px 20px;
-  border-radius: 15px;
-  border: 5px solid #1e1e1e;
-  color: #e4e4e4;
-  font-size: 20px;
-  cursor: pointer;
-  transition: background-color var(--anim-time) ease-in-out, color var(--anim-time) ease-in-out, border-bottom-left-radius var(--anim-select-border) cubic-bezier(0.860, 0.005, 0.260, 1.000), border-bottom-right-radius var(--anim-select-border) cubic-bezier(0.860, 0.005, 0.260, 1.000);
-}
-.selected--open{
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-.carpet{
-  border-top: 15px solid white;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;
-  border-bottom: 0px solid transparent;
-  transition: border-top var(--anim-time) ease-in-out, border-right var(--anim-time) ease-in-out, border-left var(--anim-time) ease-in-out, border-bottom var(--anim-time) ease-in-out;
-}
-.carpet--open{
-  border-top: 0px solid transparent;
-  border-bottom: 15px solid white;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;
-}
-.options{
-  background-color: #1e1e1e;
-  color: #e4e4e4;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-/*   padding: 20px; */
-  /* overflow: hidden;
-  padding: 0px;
-  transform-origin: center top;
-  transform: scaleY(0);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  font-size: 20px;
-  transition: transform var(--anim-option-height) cubic-bezier(0.860, 0.005, 0.260, 1.000), padding var(--anim-option-height) cubic-bezier(0.860, 0.005, 0.260, 1.000);
-}
-.options__item{
-  transition: color var(--anim-time) ease-in-out;
-  cursor: pointer;
-}
-.options__item:hover{
-  color: #00ffa6;
-}
-.selected:hover + .options, .options:hover{
-  transform: scaleY(1);
-  padding: 20px;
-  transition-delay: var(--anim-option-height-delay);
-}
-.selected:hover{
-  background-color: #2d2d2d;
-  color: #00ffa6;
-}
-.selected:hover .carpet{
-  border-top: 15px solid #00ffa6;
-}
-.selected:hover .carpet--open{
-  border-top: 0px solid transparent;
-  border-bottom: 15px solid #00ffa6;
-}
-.selected--delay{
-  transition-delay: .12s;
-}
-.options__item--active{
-  background-color: #303030;
-  border-radius: 15px;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-} */ */
 
-/* Default styles */
-
+/* second section */
 .second-section{
     background-color: #1d1d1f;
     color:#fbfbfd;
@@ -196,15 +69,16 @@ ul{
     display: flex;
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering */
-    height: 65px; /* Assuming you want to vertically center within the parent container */
+    height: 80px; /* Assuming you want to vertically center within the parent container */
     width:100%;
-    background-color: #1d1d1f;
+    background-color: #262629;
     color: #e8e8ed;
+    
 }
 #save{
+  margin-top: 50px;
     text-align:center;
 }
-
 
 .hero-section{
     background-image: url('heroimage.jpg');
